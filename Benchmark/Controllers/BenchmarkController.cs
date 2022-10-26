@@ -6,10 +6,10 @@ namespace Benchmark.Controllers
     [Route("/")]
     public class BenchmarkController : ControllerBase
     {
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet("/")]
         public string Get()
         {
-            return "Este es nunestro Benchmark para programcion en tiempo real segundo cuatrimestre 2022, Alumnos: Djirikian Damian y Blasi Ezequiel";
+            return "Este es nuestro Benchmark para programacion en tiempo real segundo cuatrimestre 2022, Alumnos: Djirikian Damian y Blasi Ezequiel";
         }
     }
 }
